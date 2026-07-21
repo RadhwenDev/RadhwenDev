@@ -1,8 +1,5 @@
-# <img src="https://media.giphy.com/media/hvRJCLFwcasr6/giphy.gif" width="30px"> Hi, I'm Radhwen Hmad
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Status-Engineering%20Student-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Software%20Engineering-brightgreen?style=for-the-badge" />
+<p align="center">
+  <img src="profile-banner.jpg" width="100%" alt="Radhwen Hmad Banner">
 </p>
 
 ---
@@ -34,5 +31,8 @@
 ---
 
 ### 🤝 Connect with me
-📧 **Email:** [radhwenhmad@gmail.com](mailto:radhwenhmad@gmail.com)  
-💼 **LinkedIn:** [My LinkedIn](https://www.linkedin.com/in/radhouan-hmad-a25498329/)
+<p>
+  <a href="https://www.linkedin.com/in/radhouan-hmad-a25498329/" target="_blank">
+    <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="55" height="55" style="vertical-align: middle; margin-right: 12px;" />
+  </a>
+</p>
