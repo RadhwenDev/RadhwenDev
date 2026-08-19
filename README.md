@@ -1,6 +1,9 @@
 <p align="center">
   <img src="profile-banner.jpg" width="100%" alt="Radhwen Hmad Banner">
 </p>
+<p align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Software+Engineering+Student;Full-Stack+Developer+(.NET+%26+MERN);Competitive+Programmer" alt="Typing SVG" /></a>
+</p>
 
 ---
 
