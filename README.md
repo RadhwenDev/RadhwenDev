@@ -33,6 +33,10 @@
 
 ---
 
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RadhwenDev&theme=react-dark&area=true)](https://github.com/ashutosh00712/github-readme-activity-graph)
+
+---
+
 ### 🤝 Connect with me
 <p>
   <a href="https://www.linkedin.com/in/radhouan-hmad-a25498329/" target="_blank">
