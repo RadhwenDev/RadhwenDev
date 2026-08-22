@@ -43,3 +43,7 @@
     <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="55" height="55" style="vertical-align: middle; margin-right: 12px;" />
   </a>
 </p>
+
+---
+
+<img src="https://raw.githubusercontent.com/RadhwenDev/RadhwenDev/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
