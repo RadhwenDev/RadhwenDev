@@ -26,10 +26,12 @@
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=RadhwenDev&show_icons=true&theme=tokyonight&count_private=true" alt="Radhwen's GitHub Stats" height="180px" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RadhwenDev&theme=tokyonight" alt="Radhwen's Streak Stats" height="180px" />
-</p>
+<div align="center">
+
+  <img height="195" src="https://github-readme-stats-fast.vercel.app/api?username=RadhwenDev&show_icons=true&bg_color=090d16&title_color=2f95dc&icon_color=22c55e&text_color=ffffff&border_color=1e293b&include_all_commits=true" alt="GitHub Stats" />
+  <img height="195" src="https://github-readme-streak-stats-three.vercel.app/?user=RadhwenDev&background=090d16&border=1e293b&stroke=1e293b&ring=2f95dc&fire=22c55e&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=2f95dc&sideLabels=ffffff&dates=64748b" alt="GitHub Streak" />
+
+</div>
 
 ---
 
