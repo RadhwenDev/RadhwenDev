@@ -10,14 +10,17 @@
     </linearGradient>
   </defs>
 
+  <!-- الخط الأيسر -->
   <line x1="20" y1="30" x2="368" y2="30" stroke="url(#lineGradLeft)" stroke-width="1.5"/>
   <circle cx="368" cy="30" r="2.5" fill="#4a9eff"/>
 
+  <!-- المعين في المنتصف -->
   <rect x="392" y="22" width="16" height="16" rx="3"
         transform="rotate(45 400 30)"
         fill="#0f172a" stroke="#4a9eff" stroke-width="2"/>
   <circle cx="400" cy="30" r="3" fill="#4a9eff"/>
 
+  <!-- الخط الأيمن -->
   <circle cx="432" cy="30" r="2.5" fill="#4a9eff"/>
   <line x1="432" y1="30" x2="780" y2="30" stroke="url(#lineGradRight)" stroke-width="1.5"/>
 </svg>
