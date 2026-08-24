@@ -54,12 +54,6 @@
 </p>
 
 ### 🤝 Connect with me
-<p>
-  <a href="https://www.linkedin.com/in/radhouan-hmad-a25498329/" target="_blank">
-    <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="55" height="55" style="vertical-align: middle; margin-right: 12px;" />
-  </a>
-</p>
-
 <p align="center">
   <a href="https://www.linkedin.com/in/radhouan-hmad-a25498329/" target="_blank">
     <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="48" height="48">
