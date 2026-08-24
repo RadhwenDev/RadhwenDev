@@ -5,7 +5,9 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4500&pause=1000&width=435&lines=Software+Engineering+Student;.NET+Full+Stack+Developer;Strong+OOP+%26+Problem+Solving" alt="Typing SVG" /></a>
 </p>
 
----
+<p align="center">
+  <img src="./assets/separator.svg" width="100%" />
+</p>
 
 ### 👨‍💻 About Me
 - 🚀 **Software Engineering Student** passionate about programming and building applications.
@@ -13,7 +15,9 @@
 - ⚙️ Currently learning and exploring the **.NET Ecosystem**.
 - 📚 Continuous learner, focused on writing clean and efficient code.
 
----
+<p align="center">
+  <img src="./assets/separator.svg" width="100%" />
+</p>
 
 ### 🛠️ Tech Stack & Tools
 
@@ -22,7 +26,9 @@
 | **Languages** | ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
 | **Databases & Tools** | ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white) |
 
----
+<p align="center">
+  <img src="./assets/separator.svg" width="100%" />
+</p>
 
 ### 📊 GitHub Stats
 
@@ -37,11 +43,15 @@
   </tr>
 </table>
 
----
+<p align="center">
+  <img src="./assets/separator.svg" width="100%" />
+</p>
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RadhwenDev&theme=react-dark&area=true)](https://github.com/ashutosh00712/github-readme-activity-graph)
 
----
+<p align="center">
+  <img src="./assets/separator.svg" width="100%" />
+</p>
 
 ### 🤝 Connect with me
 <p>
@@ -50,6 +60,8 @@
   </a>
 </p>
 
----
+<p align="center">
+  <img src="./assets/separator.svg" width="100%" />
+</p>
 
 <img src="https://raw.githubusercontent.com/RadhwenDev/RadhwenDev/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
