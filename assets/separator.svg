@@ -1,45 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" width="100%" height="auto">
   <defs>
-    <!-- تأثير التوهج النيون -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur1" />
-      <feGaussianBlur stdDeviation="6" result="blur2" />
-      <feMerge>
-        <feMergeNode in="blur2" />
-        <feMergeNode in="blur1" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <!-- تدرج التلاشي للخطين الجانبيين -->
+    <!-- تدرج التلاشي للخط الأيسر -->
     <linearGradient id="fade-left" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00d2ff" stop-opacity="0" />
       <stop offset="100%" stop-color="#00d2ff" stop-opacity="1" />
     </linearGradient>
 
+    <!-- تدرج التلاشي للخط الأيمن -->
     <linearGradient id="fade-right" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00d2ff" stop-opacity="1" />
       <stop offset="100%" stop-color="#00d2ff" stop-opacity="0" />
     </linearGradient>
+
+    <!-- تدرج وهج نيون متدرج -->
+    <radialGradient id="center-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
-  <g filter="url(#glow)">
-    <!-- الخط الأيسر مع التلاشي -->
-    <line x1="50" y1="50" x2="410" y2="50" stroke="url(#fade-left)" stroke-width="2.5" stroke-linecap="round" />
+  <g>
+    <!-- خفيّة التوهج الخارجي للمركز (Simulated Glow) -->
+    <circle cx="500" cy="40" r="45" fill="url(#center-glow)" />
+
+    <!-- 1. طبقات التوهج للخطوط (خطوط سميكة مع شفافية خلفية) -->
+    <!-- التوهج الخلفي الأيسر -->
+    <line x1="50" y1="40" x2="410" y2="40" stroke="url(#fade-left)" stroke-width="8" stroke-opacity="0.25" stroke-linecap="round" />
+    <line x1="50" y1="40" x2="410" y2="40" stroke="url(#fade-left)" stroke-width="4" stroke-opacity="0.5" stroke-linecap="round" />
     
-    <!-- المعين الصغير الأيسر -->
-    <polygon points="418,50 423,45 428,50 423,55" fill="#80e5ff" />
-    <line x1="428" y1="50" x2="455" y2="50" stroke="#00d2ff" stroke-width="2.5" stroke-linecap="round" />
+    <!-- الخط الأساسي الأيسر (السطوع العالي) -->
+    <line x1="50" y1="40" x2="410" y2="40" stroke="url(#fade-left)" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- المعين الصغير الأيسر مع توهجه -->
+    <polygon points="418,40 423,35 428,40 423,45" fill="#00d2ff" fill-opacity="0.4" transform="scale(1.4) translate(-120,-11.5)" />
+    <polygon points="418,40 423,35 428,40 423,45" fill="#e0f7ff" />
+    
+    <line x1="428" y1="40" x2="455" y2="40" stroke="#00d2ff" stroke-width="6" stroke-opacity="0.3" stroke-linecap="round" />
+    <line x1="428" y1="40" x2="455" y2="40" stroke="#80e5ff" stroke-width="2" stroke-linecap="round" />
 
-    <!-- العنصر المركزي (المعين الكبير والنقطة) -->
-    <polygon points="500,25 525,50 500,75 475,50" fill="none" stroke="#00d2ff" stroke-width="3" />
-    <circle cx="500" cy="50" r="4.5" fill="#80e5ff" />
+    <!-- 2. المعين المركزي مع طبقات التوهج المضاعفة -->
+    <!-- توهج المعين -->
+    <polygon points="500,15 525,40 500,65 475,40" fill="none" stroke="#00d2ff" stroke-width="8" stroke-opacity="0.2" />
+    <polygon points="500,15 525,40 500,65 475,40" fill="none" stroke="#00d2ff" stroke-width="4" stroke-opacity="0.5" />
+    <!-- خط المعين الحاد الساطع -->
+    <polygon points="500,15 525,40 500,65 475,40" fill="none" stroke="#ffffff" stroke-width="2" />
 
+    <!-- النقطة المركزية مع التوهج -->
+    <circle cx="500" cy="40" r="9" fill="#00d2ff" fill-opacity="0.4" />
+    <circle cx="500" cy="40" r="4.5" fill="#ffffff" />
+
+    <!-- 3. الجزء الأيمن (توهج + خطوط ساطعة) -->
+    <line x1="545" y1="40" x2="572" y2="40" stroke="#00d2ff" stroke-width="6" stroke-opacity="0.3" stroke-linecap="round" />
+    <line x1="545" y1="40" x2="572" y2="40" stroke="#80e5ff" stroke-width="2" stroke-linecap="round" />
+    
     <!-- المعين الصغير الأيمن -->
-    <line x1="545" y1="50" x2="572" y2="50" stroke="#00d2ff" stroke-width="2.5" stroke-linecap="round" />
-    <polygon points="572,50 577,45 582,50 577,55" fill="#80e5ff" />
+    <polygon points="572,40 577,35 582,40 577,45" fill="#00d2ff" fill-opacity="0.4" transform="scale(1.4) translate(-163.5,-11.5)" />
+    <polygon points="572,40 577,35 582,40 577,45" fill="#e0f7ff" />
 
-    <!-- الخط الأيمن مع التلاشي -->
-    <line x1="590" y1="50" x2="950" y2="50" stroke="url(#fade-right)" stroke-width="2.5" stroke-linecap="round" />
+    <!-- التوهج الخلفي الأيمن -->
+    <line x1="590" y1="40" x2="950" y2="40" stroke="url(#fade-right)" stroke-width="8" stroke-opacity="0.25" stroke-linecap="round" />
+    <line x1="590" y1="40" x2="950" y2="40" stroke="url(#fade-right)" stroke-width="4" stroke-opacity="0.5" stroke-linecap="round" />
+    
+    <!-- الخط الأساسي الأيمن -->
+    <line x1="590" y1="40" x2="950" y2="40" stroke="url(#fade-right)" stroke-width="2" stroke-linecap="round" />
   </g>
 </svg>
