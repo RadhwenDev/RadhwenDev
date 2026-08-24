@@ -1,28 +1,23 @@
 <svg width="800" height="60" viewBox="0 0 800 60" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="lineGradLeft" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="1"/>
+    <linearGradient id="lineGradLeft" gradientUnits="userSpaceOnUse" x1="20" y1="0" x2="368" y2="0">
+      <stop offset="0%" stop-color="#4a9eff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#4a9eff" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="lineGradRight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    <linearGradient id="lineGradRight" gradientUnits="userSpaceOnUse" x1="432" y1="0" x2="780" y2="0">
+      <stop offset="0%" stop-color="#4a9eff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#4a9eff" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <!-- الخط الأيسر -->
-  <line x1="20" y1="30" x2="370" y2="30" stroke="url(#lineGradLeft)" stroke-width="1.5"/>
-  <!-- نقطة صغيرة على الخط الأيسر -->
-  <circle cx="370" cy="30" r="3" fill="#3b82f6"/>
+  <line x1="20" y1="30" x2="368" y2="30" stroke="url(#lineGradLeft)" stroke-width="1.5"/>
+  <circle cx="368" cy="30" r="2.5" fill="#4a9eff"/>
 
-  <!-- المعين في المنتصف -->
   <rect x="392" y="22" width="16" height="16" rx="3"
         transform="rotate(45 400 30)"
-        fill="#0f172a" stroke="#3b82f6" stroke-width="2"/>
-  <circle cx="400" cy="30" r="3" fill="#3b82f6"/>
+        fill="#0f172a" stroke="#4a9eff" stroke-width="2"/>
+  <circle cx="400" cy="30" r="3" fill="#4a9eff"/>
 
-  <!-- نقطة صغيرة على الخط الأيمن -->
-  <circle cx="430" cy="30" r="3" fill="#3b82f6"/>
-  <!-- الخط الأيمن -->
-  <line x1="430" y1="30" x2="780" y2="30" stroke="url(#lineGradRight)" stroke-width="1.5"/>
+  <circle cx="432" cy="30" r="2.5" fill="#4a9eff"/>
+  <line x1="432" y1="30" x2="780" y2="30" stroke="url(#lineGradRight)" stroke-width="1.5"/>
 </svg>
