@@ -61,6 +61,26 @@
 </p>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/radhouan-hmad-a25498329/" target="_blank">
+    <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="48" height="48">
+  </a>&nbsp;&nbsp;
+
+  <a href="https://wa.me/21621981472" target="_blank">
+    <img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp" width="48" height="48">
+  </a>&nbsp;&nbsp;
+
+  <a href="https://www.facebook.com/radh.wen.998122" target="_blank">
+    <img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook" width="48" height="48">
+  </a>&nbsp;&nbsp;
+
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=radhwenhmad@gmail.com" target="_blank">
+    <img src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" width="48" height="48">
+  </a>&nbsp;&nbsp;
+
+  <img src="https://komarev.com/ghpvc/?username=RadhwenDev&label=Profile%20views&color=0077B5&style=flat-square" alt="Profile Views" width="100" height="45">
+</p>
+
+<p align="center">
   <img src="./assets/separator.svg" width="100%" />
 </p>
 
