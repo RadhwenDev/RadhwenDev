@@ -47,7 +47,7 @@
   <img src="./assets/separator.svg" width="100%" />
 </p>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RadhwenDev&theme=react-dark&area=true)](https://github.com/ashutosh00712/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RadhwenDev&theme=react-dark&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <p align="center">
   <img src="./assets/separator.svg" width="100%" />
